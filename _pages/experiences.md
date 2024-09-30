@@ -4,6 +4,14 @@ permalink: /experiences/
 author_profile: true
 ---
 
+# Education
+
+- **Ph.D. Computer Science and Engineering, University of California, Riverside, 2024**
+
+- **M.S. Electrical Engineering, National Cheng Kung University, 2016**
+
+- **B.S. Electrical Engineering, National Cheng Kung University, 2014**
+
 
 # Work Experience
 - **Research associate, Computational Science Initiative, Brookhaven National Laboratory, 2024 – present**

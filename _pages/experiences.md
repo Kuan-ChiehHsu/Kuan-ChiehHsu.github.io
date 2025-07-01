@@ -14,7 +14,7 @@ author_profile: true
 
 
 # Work Experience
-- **Research associate, Computational Science Initiative, Brookhaven National Laboratory, 2024 – present**
+- **Research associate, Computing and Data Sciences Department, Brookhaven National Laboratory, 2024 – present**
 - **Graduate research program intern, Oak Ridge National Laboratory, 2023 - 2024** 
     - Developed an automation framework for expanding Electromagnetic Transients (EMT) simulations of large-scale bulk power systems, focusing on enhancing simulation scalability and accuracy through modular and connectivity graph-based model construction.
     - Explored and investigated existing sparse linear solvers for large-scale Electromagnetic Transients (EMT) simulations.
@@ -36,10 +36,13 @@ Fibonacci sequence to orient students with function calls using MIPS.
     - Implemented data processing automation and visualization in R language to avoid human intervention on weekly generated measurement data.
 
 # Academic Service
+- IEEE COINS 2025 PC member & reviewer
+- IEEE Computer Architecture Letters 2025 reviewer
 - ISCA 2023 AE reviewer
 - TACO 2022 reviewer
 - Student volunteer for 2018 IEEE International Symposium on Workload Characterization, Raleigh, NC, Sep. 30 – Oct. 2, 2018
 - 4th Taiwan Artificial Intelligence/Data Science Conference coordinator in Academia Sinica, Taiwan, Nov. 9-12, 2017.
 
 # Activities
+- SIGMETRICS 2025 tutorial presentation
 - Exchange Student in Department of Computer Science and Software Engineering, Auburn University, AL, USA Aug. 2013 – Dec. 2013

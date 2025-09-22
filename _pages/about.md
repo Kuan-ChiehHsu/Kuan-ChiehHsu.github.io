@@ -15,6 +15,7 @@ For more details about my background and work, please refer to my [CV](https://d
 
 
 ## News
+- **September 2025** 3 workshop papers accepted in SC 2025!
 - **June 2025** I will attend ModSim 2025 workshop in Seattle (Aug. 13 - 15)
 - **June 2025** Two abstracts got accepted in ACAT 2025 (Sep.)!
 - **June 2025** I attend SIGMETRICS 2025, Stony Brook, NY

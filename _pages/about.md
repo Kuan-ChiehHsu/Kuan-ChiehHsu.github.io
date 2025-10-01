@@ -11,10 +11,6 @@ Hello! I recently graduated with a PhD in Computer Science and Engineering from 
 
 I completed my Master’s degree in Computer and Communication Engineering at National Cheng Kung University, Taiwan, in 2016, under the guidance of [Dr. Chung-Ho Chen](https://researchoutput.ncku.edu.tw/en/persons/chung-ho-chen). I earned my Bachelor’s degree in Electrical Engineering from the same institution in 2014, graduating with a CGPA of 3.91/4.00. I also had the enriching experience of being an exchange student at Auburn University in the Electrical Engineering and Computer Science department during Fall 2013.
 
-<a href="https://www.overleaf.com/read/xxvfmfngnsqj#95b20d" target="_blank">
-    Download / View My CV
-</a>
-
 
 ## News
 - **September 2025** 3 workshop papers accepted in SC 2025!

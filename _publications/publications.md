@@ -17,6 +17,8 @@ author_profile: true
 <p><strong>[ICASI 15]</strong> Heng-Yi Chen, Chung-Ho Chen, Yun-Chi Huang, <strong>Kuan-Chieh Hsu</strong>, Chen-Chieh Wang, &quot;An HSAIL ISA conformed GPU platform,&quot; Applied System Innovation - Proceedings of the International Conference on Applied System Innovation, (ICASI) 2015 <a href="https://researchoutput.ncku.edu.tw/en/publications/an-hsail-isa-conformed-gpu-platform">[Link]</a></p>
 
 # Workshops
+<p><strong>[DRBSD 2025]</strong> <strong>Kuan-Chieh Hsu</strong>, Sairam Sri Vatsavai, Ozgur O. Kilic, Sankha Dutta, Yihui (Ray) Ren, David Park, Tania Korchuganova, Joseph Boudreau, Tasnuva Chowdhury, Shengyu Feng, Raees Ahmad Khan, Jaehyung Kim, Norbert Podhorszki, Scott Klasky, Tadashi Maeno, Paul Nilsson, Verena Ingrid Martinez Outschoorn, Fred Suter, Wei Yang, Yiming Yang, Shinjae Yoo, Alexei Klimentov and Adolfy Hoisie, &quot;Data Management System Analysis for Distributed Computing Workloads,&quot; accepted for the 11th International Workshop on Data Analysis and Reduction for Big Scientific Data (DRBSD), 2025 <a href="https://drbsd.github.io/">[Website]</a></p> 
+
 <p><strong>[IAP 23]</strong> <strong>Kuan-Chieh Hsu</strong> and Hung-Wei Tseng, &quot;Accelerating applications using edge tensor processing units,&quot; UCSD AI and Cloud Workshop (poster), IAP 2023 <a href="https://www.industry-academia.org/ucsd-2023.html">[Link]</a></p> 
 <p><strong>[WDDSA 22]</strong> <strong>Kuan-Chieh Hsu</strong> and Hung-Wei Tseng, &quot;Accelerating applications using edge tensor processing units,&quot; 1st Workshop on Democratizing Domain-Specific Accelerators (WDDSA), 2022 in conjunction with the 55th IEEE/ACM International Symposium on Microarchitecture <a href="https://www.escalab.org/wddsa2022/">[Paper]</a></p>
 

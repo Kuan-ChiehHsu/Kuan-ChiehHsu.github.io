@@ -6,13 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I’m a Research Associate in the Computing & Data Sciences Department at Brookhaven National Laboratory, working broadly in high-performance computing and heterogeneous systems to make accelerator-rich platforms straightforward and reliable for scientific workloads. I earned my Ph.D. in Computer Science & Engineering from the University of California, Riverside, and previously completed M.S. and B.S. degrees in Electrical Engineering at National Cheng Kung University.
 
-Hello! I recently graduated with a PhD in Computer Science and Engineering from the University of California, Riverside ([UCR](https://www.ucr.edu/)), where I was deeply involved in research under the supervision of [Dr. Hung-Wei Tseng](https://intra.engr.ucr.edu/~htseng/) in the Extreme Storage & Computer Architecture Laboratory ([ESCAL](https://www.escalab.org/)). Currently, I am a Research Associate with the Computing and Data Sciences Department at Brookhaven National Laboratory.
-
-I completed my Master’s degree in Computer and Communication Engineering at National Cheng Kung University, Taiwan, in 2016, under the guidance of [Dr. Chung-Ho Chen](https://researchoutput.ncku.edu.tw/en/persons/chung-ho-chen). I earned my Bachelor’s degree in Electrical Engineering from the same institution in 2014, graduating with a CGPA of 3.91/4.00. I also had the enriching experience of being an exchange student at Auburn University in the Electrical Engineering and Computer Science department during Fall 2013.
-
+[CV]({{ '/files/Kuan_Chieh_Hsu_resume_main.pdf'}})
 
 ## News
+- **September 2025** RE-INTEGRATE grid modeling <a href="https://www.ornl.gov/news/new-modeling-tool-advances-grid-reliability">[NEWS]</a>
 - **September 2025** 3 workshop papers accepted in SC 2025!
 - **June 2025** I will attend ModSim 2025 workshop in Seattle (Aug. 13 - 15)
 - **June 2025** Two abstracts got accepted in ACAT 2025 (Sep.)!
@@ -21,3 +20,4 @@ I completed my Master’s degree in Computer and Communication Engineering at Na
 - **April 2025** It's Time to Jam! <a href="https://www.bnl.gov/newsroom/news.php?a=222379">[NEWS]</a>
 - **November 2024** I attend SC 2024, Atlanta
 - **August 2024**  I start a postdoc position with CSI, BNL
+- **July 2024** EMT simulation software <a href="https://www.ornl.gov/news/new-software-provides-advanced-grid-simulation-capabilities">[NEWS]</a>

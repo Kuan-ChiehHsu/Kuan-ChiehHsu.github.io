@@ -20,11 +20,13 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "All"
+  - title: "Miscellaneous"
     url: /all/
     children:
-      - title: "Misc. notes"
-        url: /all/misc/
+      - title: "Scratch"
+        url: /scratch/
+      - title: "Notes"
+        url: /misc/
 #  - title: "Portfolio"
 #    url: /portfolio/
     

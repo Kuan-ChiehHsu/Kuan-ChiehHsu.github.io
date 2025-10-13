@@ -30,3 +30,148 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <!-- end custom head snippets -->
+
+<style>
+/* ===============================
+   Minimal Mistakes dropdown fixups
+   =============================== */
+
+/* 1) Anchor the submenu to its own LI */
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown {
+  position: relative !important;
+  overflow: visible;
+}
+
+/* 2) Dropdown panel — hidden by default, vertical list, aligned under tab
+      Supports either <ul class="dropdown"> or <ul class="mm-dropdown"> */
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.dropdown,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.mm-dropdown {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  min-width: 200px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  z-index: 1000;
+
+  /* Reset layout & spacing and keep it hidden until hover/focus */
+  display: block !important;          /* neutralize flex from theme */
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0.25rem 0 !important;
+
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .14s ease, visibility .14s ease;
+}
+
+/* 3) Show on hover/focus */
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown:hover > ul.dropdown,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown:focus-within > ul.dropdown,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown:hover > ul.mm-dropdown,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown:focus-within > ul.mm-dropdown {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 4) Stack submenu items vertically and remove any indent/margins */
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.dropdown > li,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.mm-dropdown > li {
+  display: block !important;
+  float: none !important;
+  margin: 0 !important;     /* kills .visible-links li + li margin from theme */
+  padding: 0 !important;
+}
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.dropdown > li + li,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.mm-dropdown > li + li {
+  margin-left: 0 !important; /* extra safety against adjacent margin leak */
+}
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.dropdown > li::before,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.mm-dropdown > li::before {
+  content: none !important;
+}
+
+/* 5) Submenu links: consistent size/weight and hit area */
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.dropdown a,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.mm-dropdown a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  white-space: nowrap;
+  text-decoration: none;
+
+  /* normalize typography so first/second items match */
+  font-weight: 400 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.4;
+}
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.dropdown a:hover,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.mm-dropdown a:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+/* 6) Keep top-level tabs bold without affecting children */
+nav#site-nav.greedy-nav .masthead__menu-item > a {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* 7) Add a caret to indicate dropdown on the parent tab */
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown > a.no-link::after {
+  content: " ▾";
+  font-size: 0.8em;
+}
+
+/* 8) Right-edge protection for last item */
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown:last-child > ul.dropdown,
+nav#site-nav.greedy-nav .visible-links > li.has-dropdown:last-child > ul.mm-dropdown {
+  right: 0;
+  left: auto;
+}
+/* FINAL: remove stray left indent inside dropdown submenus */
+#site-nav.greedy-nav .visible-links li.has-dropdown ul {
+  padding-left: 0 !important;   /* kill default UL indent */
+  margin-left: 0 !important;
+}
+
+#site-nav.greedy-nav .visible-links li.has-dropdown ul > li {
+  display: block !important;
+  float: none !important;
+  margin: 0 !important;         /* full reset */
+  padding: 0 !important;
+  text-indent: 0 !important;     /* safety */
+}
+
+#site-nav.greedy-nav .visible-links li.has-dropdown ul > li + li {
+  margin-left: 0 !important;     /* override .visible-links li + li */
+}
+
+#site-nav.greedy-nav .visible-links li.has-dropdown ul > li > a {
+  display: block;
+  margin: 0 !important;          /* ensure no anchor margin */
+  padding: 0.5rem 0.75rem;
+  white-space: nowrap;
+}
+/* Keep your gap (e.g., 0.25rem), but bridge it with a hover buffer */
+#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.dropdown,
+#site-nav.greedy-nav .visible-links > li.has-dropdown > ul.mm-dropdown {
+  top: calc(100% + 0.25rem) !important; /* keep the visual spacing */
+}
+
+/* Transparent bridge that preserves :hover while moving down */
+#site-nav.greedy-nav .visible-links > li.has-dropdown {
+  position: relative !important;
+}
+#site-nav.greedy-nav .visible-links > li.has-dropdown::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 12px;   /* >= the gap (0.25rem ≈ 4px) */
+  background: transparent;
+  /* no z-index needed; it sits above page content and below the dropdown */
+}
+</style>

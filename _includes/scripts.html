@@ -2,10 +2,9 @@
 
 <script>
   (function () {
-    // Run after the DOM is ready
     function initThemeToggle() {
       var btn = document.getElementById('theme-toggle');
-      if (!btn) return; // no button found, nothing to do
+      if (!btn) return;
 
       function getCurrentTheme() {
         var stored = localStorage.getItem('theme');
@@ -14,8 +13,8 @@
         var attr = document.documentElement.getAttribute('data-theme');
         if (attr === 'dark' || attr === 'light') return attr;
 
-        // fallback to system preference
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        if (window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches) {
           return 'dark';
         }
         return 'light';
@@ -29,11 +28,9 @@
         }
       }
 
-      // Initialize from storage / attribute / system
       var current = getCurrentTheme();
       applyTheme(current);
 
-      // Wire the button
       btn.addEventListener('click', function (e) {
         e.preventDefault();
         current = current === 'dark' ? 'light' : 'dark';
@@ -42,44 +39,39 @@
       });
     }
 
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initThemeToggle);
-    } else {
-      initThemeToggle();
-    }
-  })();
-</script>
-<script>
-  (function () {
     function initAboutTypewriter() {
       var el = document.querySelector('.about-typing');
-      if (!el) return; // no about paragraph found
+      if (!el) return;                 // no target paragraph
 
-      // Grab the full text and clear it out
-      var fullText = el.textContent.trim();
-      el.textContent = '';
+      var fullText = el.textContent;
+      if (!fullText || !fullText.trim()) return;
+
+      fullText = fullText.trim();
+      el.textContent = '';             // clear initial text
 
       var i = 0;
-      var speed = 15; // ms per character, adjust for faster/slower typing
+      var speed = 30;                  // ms per character
 
-      function typeNext() {
-        if (i <= fullText.length) {
-          el.textContent = fullText.slice(0, i);
-          i++;
-          setTimeout(typeNext, speed);
-        } else {
-          // done typing; cursor keeps blinking
+      var timer = setInterval(function () {
+        i++;
+        el.textContent = fullText.slice(0, i);
+        if (i >= fullText.length) {
+          clearInterval(timer);
         }
-      }
+      }, speed);
+    }
 
-      typeNext();
+    function initAll() {
+      initThemeToggle();
+      initAboutTypewriter();
     }
 
     if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initAboutTypewriter);
+      document.addEventListener('DOMContentLoaded', initAll);
     } else {
-      initAboutTypewriter();
+      initAll();
     }
   })();
 </script>
+
 {% include analytics.html %}

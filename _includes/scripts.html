@@ -1,3 +1,53 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+
+<script>
+  (function () {
+    // Run after the DOM is ready
+    function initThemeToggle() {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return; // no button found, nothing to do
+
+      function getCurrentTheme() {
+        var stored = localStorage.getItem('theme');
+        if (stored === 'dark' || stored === 'light') return stored;
+
+        var attr = document.documentElement.getAttribute('data-theme');
+        if (attr === 'dark' || attr === 'light') return attr;
+
+        // fallback to system preference
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          return 'dark';
+        }
+        return 'light';
+      }
+
+      function applyTheme(theme) {
+        if (theme === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      }
+
+      // Initialize from storage / attribute / system
+      var current = getCurrentTheme();
+      applyTheme(current);
+
+      // Wire the button
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        current = current === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('theme', current);
+        applyTheme(current);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initThemeToggle);
+    } else {
+      initThemeToggle();
+    }
+  })();
+</script>
 
 {% include analytics.html %}

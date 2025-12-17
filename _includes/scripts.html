@@ -49,5 +49,37 @@
     }
   })();
 </script>
+<script>
+  (function () {
+    function initAboutTypewriter() {
+      var el = document.querySelector('.about-typing');
+      if (!el) return; // no about paragraph found
 
+      // Grab the full text and clear it out
+      var fullText = el.textContent.trim();
+      el.textContent = '';
+
+      var i = 0;
+      var speed = 15; // ms per character, adjust for faster/slower typing
+
+      function typeNext() {
+        if (i <= fullText.length) {
+          el.textContent = fullText.slice(0, i);
+          i++;
+          setTimeout(typeNext, speed);
+        } else {
+          // done typing; cursor keeps blinking
+        }
+      }
+
+      typeNext();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initAboutTypewriter);
+    } else {
+      initAboutTypewriter();
+    }
+  })();
+</script>
 {% include analytics.html %}

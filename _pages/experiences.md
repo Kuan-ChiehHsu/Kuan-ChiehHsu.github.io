@@ -43,7 +43,7 @@ Fibonacci sequence to orient students with function calls using MIPS.
 - Student volunteer for 2018 IEEE International Symposium on Workload Characterization, Raleigh, NC, Sep. 30 – Oct. 2, 2018
 - 4th Taiwan Artificial Intelligence/Data Science Conference coordinator in Academia Sinica, Taiwan, Nov. 9-12, 2017.
 
-# Mentee
+# Mentor
 - David Tanase, SULI program, 2025
 
 # Activities

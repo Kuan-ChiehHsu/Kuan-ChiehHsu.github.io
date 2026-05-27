@@ -21,3 +21,8 @@ bundle exec jekyll serve --livereload --baseurl ""
 ```
 http://localhost:4000/
 ```
+
+## Vibe Coding Projects
+
+- 2048 Learner on Google AI Studio: 
+https://ai.studio/apps/731372fa-cd52-4022-b039-469d4215c568?fullscreenApplet=true

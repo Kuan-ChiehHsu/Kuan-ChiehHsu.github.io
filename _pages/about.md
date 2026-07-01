@@ -12,6 +12,7 @@ I’m a Research Associate in the Computing & Data Sciences Department at Brookh
 [CV]({{ '/files/Kuan_Chieh_Hsu_resume_main.pdf'}})
 
 ## News
+- **July 2026** I will attend ModSim 2026 workshop in Seattle (Aug. 12 - 14)
 - **September 2025** RE-INTEGRATE grid modeling <a href="https://www.ornl.gov/news/new-modeling-tool-advances-grid-reliability">[NEWS]</a>
 - **September 2025** 3 workshop papers accepted in SC 2025!
 - **June 2025** I will attend ModSim 2025 workshop in Seattle (Aug. 13 - 15)

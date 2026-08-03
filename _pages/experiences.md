@@ -14,7 +14,8 @@ author_profile: true
 
 
 # Work Experience
-- **Research associate, Computing and Data Sciences Department, Brookhaven National Laboratory, 2024 – present**
+- **Research staff, Computing and Data Sciences Department, Brookhaven National Laboratory, 2026 – present**
+- **Research associate, Computing and Data Sciences Department, Brookhaven National Laboratory, 2024 – 2026**
 - **Graduate research program intern, Oak Ridge National Laboratory, 2023 - 2024** 
     - Developed an automation framework for expanding Electromagnetic Transients (EMT) simulations of large-scale bulk power systems, focusing on enhancing simulation scalability and accuracy through modular and connectivity graph-based model construction.
     - Explored and investigated existing sparse linear solvers for large-scale Electromagnetic Transients (EMT) simulations.

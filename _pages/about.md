@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I’m a Research Associate in the Computing & Data Sciences Department at Brookhaven National Laboratory, working broadly in high-performance computing and heterogeneous systems to make accelerator-rich platforms straightforward and reliable for scientific workloads. I earned my Ph.D. in Computer Science & Engineering from the University of California, Riverside, and previously completed M.S. and B.S. degrees in Electrical Engineering at National Cheng Kung University.
+I’m a Research Staff in the Computing & Data Sciences Department at Brookhaven National Laboratory, working broadly in high-performance computing and heterogeneous systems to make accelerator-rich platforms straightforward and reliable for scientific workloads. I earned my Ph.D. in Computer Science & Engineering from the University of California, Riverside, and previously completed M.S. and B.S. degrees in Electrical Engineering at National Cheng Kung University.
 
 
 [CV]({{ '/files/Kuan_Chieh_Hsu_resume_main.pdf'}})

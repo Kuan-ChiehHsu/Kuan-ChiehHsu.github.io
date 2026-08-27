@@ -11,6 +11,8 @@ I’m a Research Staff in the Computing & Data Sciences Department at Brookhaven
 
 [CV]({{ '/files/Kuan_Chieh_Hsu_resume_main.pdf'}})
 
+I'm a recreational philosopher. If you enjoy my [podcast channel]({{ '/misc/#my-podcast-project' | relative_url }}), I would love to hear your thoughts. 
+
 ## News
 - **July 2026** I will attend ModSim 2026 workshop in Seattle (Aug. 12 - 14)
 - **September 2025** RE-INTEGRATE grid modeling <a href="https://www.ornl.gov/news/new-modeling-tool-advances-grid-reliability">[NEWS]</a>

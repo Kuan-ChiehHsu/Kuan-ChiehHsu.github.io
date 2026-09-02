@@ -31,10 +31,10 @@ http://localhost:4000/
 
 "Scientific bedtime reading" podcast channel:
 
-- [Spotify](https://open.spotify.com/episode/18RQxDDNz4S9cu2Oy5yxy1)
+- [Spotify](https://open.spotify.com/show/2AhcSX9D65Gn5P5oNE0ldO)
 
-- [Apple Podcast](https://podcasts.apple.com/us/podcast/lets-do-a-turing-test/id6804888707?i=1000786143451)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/scientific-bedtime-reading/id6804888707)
 
-- [Amazon Music](https://music.amazon.com/podcasts/f884b2ff-3784-4b45-8b20-ed7f0f7edfaa/episodes/781e0965-662e-4dce-a669-8c11888695e0/scientific-bedtime-reading-let%E2%80%99s-do-a-turing-test)
+- [Amazon Music](https://music.amazon.com/podcasts/f884b2ff-3784-4b45-8b20-ed7f0f7edfaa/scientific-bedtime-reading)
 
-- [YouTube](https://www.youtube.com/watch?v=ZuvM__Z9gSg)
+- [YouTube](https://www.youtube.com/@AI_Sandboxer)

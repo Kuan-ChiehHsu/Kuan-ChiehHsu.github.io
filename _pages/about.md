@@ -14,6 +14,8 @@ I’m a Research Staff in the Computing & Data Sciences Department at Brookhaven
 I'm a recreational philosopher. If you enjoy my [podcast channel]({{ '/misc/#my-podcast-project' | relative_url }}), I would love to hear your thoughts. 
 
 ## News
+- **Sep 2026** one PMBS workshop paper is accepted!
+- **Sep 2026** My personal side project, the “Scientific Bedtime Reading” podcast channel, is officially rolling out!
 - **July 2026** I will attend ModSim 2026 workshop in Seattle (Aug. 12 - 14)
 - **September 2025** RE-INTEGRATE grid modeling <a href="https://www.ornl.gov/news/new-modeling-tool-advances-grid-reliability">[NEWS]</a>
 - **September 2025** 3 workshop papers accepted in SC 2025!
